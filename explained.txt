@@ -18,7 +18,7 @@
     - py-2                  → Padding top and bottom = 0.5rem each.
     - leading-none          → Line-height = 1 (tight, makes single line).
     - whitespace-nowrap     → Prevents text from wrapping to multiple lines.
-    - overflow-hidden        → Hides overflow content.
+    - overflow-hidden       → Hides overflow content.
     - text-ellipsis         → Adds “...” if text overflows.
 
     # File Box <div>
@@ -41,13 +41,13 @@
     - xl:text-4xl           → Extra large screens font size 4xl.
     - py-6                  → Padding top/bottom = 1.5rem each.
     - mt-8                  → Margin-top = 2rem → separates from the title above.
-    - bg-[#1c1c1c]           → Background color = dark gray (#1c1c1c).
+    - bg-[#1c1c1c]          → Background color = dark gray (#1c1c1c).
     - text-white            → Text color = white.
-    - hover:bg-[#2a2a2a]     → On hover, background color changes slightly lighter (#2a2a2a).
-    - hover:border-[#fff]     → On hover, border color changes to white.
-    - transition-all         → Smoothly animates all properties that change (hover effects, etc.).
-    - duration-600           → Transition duration = 600ms.
-    - ease-in-out            → Transition easing function (smooth acceleration and deceleration).
+    - hover:bg-[#2a2a2a]    → On hover, background color changes slightly lighter (#2a2a2a).
+    - hover:border-[#fff]   → On hover, border color changes to white.
+    - transition-all        → Smoothly animates all properties that change (hover effects, etc.).
+    - duration-600          → Transition duration = 600ms.
+    - ease-in-out           → Transition easing function (smooth acceleration and deceleration).
 
     # Hidden file input
     - hidden                → Makes the <input type="file"> invisible but still usable via JS.
