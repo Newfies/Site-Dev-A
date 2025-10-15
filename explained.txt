@@ -1,0 +1,53 @@
+    =====================================
+    TailwindCSS Class Explanation
+    =====================================
+
+    # Title Container
+    - w-full                → Makes the div span the full width of its parent/container.
+    
+    # Title <p>
+    - block                 → Makes <p> a block element (takes up full width automatically).
+    - w-full                → Ensures the <p> spans the entire width of its parent.
+    - text-center           → Centers the text horizontally.
+    - font-semibold         → Medium-bold font weight.
+    - text-7xl              → Font size (very large); scales with breakpoints.
+    - sm:text-7xl           → Small screens (≥640px) font size 7xl.
+    - md:text-7xl           → Medium screens (≥768px) font size 7xl.
+    - lg:text-8xl           → Large screens (≥1024px) font size 8xl.
+    - xl:text-8xl           → Extra large screens (≥1280px) font size 8xl.
+    - py-2                  → Padding top and bottom = 0.5rem each.
+    - leading-none          → Line-height = 1 (tight, makes single line).
+    - whitespace-nowrap     → Prevents text from wrapping to multiple lines.
+    - overflow-hidden        → Hides overflow content.
+    - text-ellipsis         → Adds “...” if text overflows.
+
+    # File Box <div>
+    - border-2              → 2px border thickness.
+    - border-dotted         → Dotted border style.
+    - border-[#3b3b3b]      → Dark gray border color (#3b3b3b).
+    - rounded-2xl           → Large rounded corners.
+    - mx-auto               → Horizontal auto margin → centers the div.
+    - w-[90%]               → Width 90% of parent (desktop/mobile responsive).
+    - sm:w-[70%]            → Small screens width 70%.
+    - md:w-[50%]            → Medium screens width 50%.
+    - lg:w-[40%]            → Large screens width 40%.
+    - xl:w-[30%]            → Extra large screens width 30%.
+    - text-center           → Centers text inside the box.
+    - font-semibold         → Medium-bold font weight.
+    - text-3xl              → Base font size.
+    - sm:text-3xl           → Small screens font size 3xl.
+    - md:text-3xl           → Medium screens font size 3xl.
+    - lg:text-4xl           → Large screens font size 4xl.
+    - xl:text-4xl           → Extra large screens font size 4xl.
+    - py-6                  → Padding top/bottom = 1.5rem each.
+    - mt-8                  → Margin-top = 2rem → separates from the title above.
+    - bg-[#1c1c1c]           → Background color = dark gray (#1c1c1c).
+    - text-white            → Text color = white.
+    - hover:bg-[#2a2a2a]     → On hover, background color changes slightly lighter (#2a2a2a).
+    - hover:border-[#fff]     → On hover, border color changes to white.
+    - transition-all         → Smoothly animates all properties that change (hover effects, etc.).
+    - duration-600           → Transition duration = 600ms.
+    - ease-in-out            → Transition easing function (smooth acceleration and deceleration).
+
+    # Hidden file input
+    - hidden                → Makes the <input type="file"> invisible but still usable via JS.
